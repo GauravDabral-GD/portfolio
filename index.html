@@ -1,225 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Your Name — Game Programming &amp; Design Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>
+    Gaurav Dabral — Game Programming &amp; Design Portfolio
+  </title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+
 </head>
+
+
 <body>
 
+
   <!-- SIDE NAV -->
+
   <nav class="sidenav" id="sidenav">
+
     <div class="sidenav__name">
-      <span class="sidenav__mark">&gt;_</span>
-      <span data-name="author">Your Name</span>
+
+      <span class="sidenav__mark">
+        &gt;_
+      </span>
+
+      <span data-name="author">
+        Gaurav Dabral
+      </span>
+
     </div>
+
+
     <ul class="sidenav__links">
-      <li><a href="#about" class="nav-link active">About</a></li>
-      <li><a href="#professional" class="nav-link">Professional</a></li>
-      <li><a href="#personal" class="nav-link">Personal Work</a></li>
-      <li><a href="#" class="nav-link" id="resumeNavLink">Résumé</a></li>
-      <li><a href="#" class="nav-link" id="gameNavLink">Game Demo</a></li>
-      <li><a href="#contact" class="nav-link">Contact</a></li>
+
+      <li>
+        <a href="#about" class="nav-link active">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="#professional" class="nav-link">
+          Professional
+        </a>
+      </li>
+
+      <li>
+        <a href="#personal" class="nav-link">
+          Personal Work
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="nav-link" id="resumeNavLink">
+          Résumé
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="nav-link" id="gameNavLink">
+          Game Demo
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact" class="nav-link">
+          Contact
+        </a>
+      </li>
+
     </ul>
+
+
     <div class="sidenav__social">
-      <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
-      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+
+      <a href="https://twitter.com/" target="_blank" rel="noopener">
+        Twitter
+      </a>
+
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/" target="_blank" rel="noopener">
+        GitHub
+      </a>
+
     </div>
+
   </nav>
 
-  <button class="navtoggle" id="navtoggle" aria-label="Toggle menu">☰</button>
-  <div class="sidenav-backdrop" id="sidenavBackdrop"></div>
+
+  <button class="navtoggle" id="navtoggle" aria-label="Toggle menu">
+
+    ☰
+
+  </button>
+
+
+  <div class="sidenav-backdrop" id="sidenavBackdrop">
+  </div>
+
 
   <main class="main">
 
-    <!-- HERO / REEL -->
+
+    <!-- HERO -->
+
     <section id="hero" class="section section--hero">
+
       <div class="hero__video-wrap">
-        <!-- Replace src below with your own reel file or an embed -->
-        <video
-          class="hero__video"
-          id="heroVideo"
-          poster=""
-          controls
-          preload="metadata"
-          playsinline>
+
+        <video class="hero__video" id="heroVideo" poster="" controls preload="metadata" playsinline>
+
           <source src="reel.mp4" type="video/mp4">
-          Your browser doesn't support embedded video.
+
+          Your browser doesn't support
+          embedded video.
+
         </video>
+
+
         <div class="hero__video-placeholder" id="heroPlaceholder">
-          <span class="hero__play">▶</span>
-          <p>Drop your work reel in as <code>reel.mp4</code><br>(or swap the &lt;video&gt; for a YouTube/Vimeo embed)</p>
+
+          <span class="hero__play">
+            ▶
+          </span>
+
+          <p>
+
+            Drop your work reel in as
+            <code>reel.mp4</code>
+
+            <br>
+
+            (or swap the
+            &lt;video&gt;
+            for a YouTube/Vimeo embed)
+
+          </p>
+
         </div>
+
       </div>
+
+
       <div class="hero__caption">
-        <p class="eyebrow">Work Reel</p>
-        <h1 data-name="author">Your Name</h1>
-        <p class="lead">Game Programmer &amp; Designer — a quick look at what I've shipped.</p>
+
+        <p class="eyebrow">
+          Work Reel
+        </p>
+
+        <h1 data-name="author">
+          Gaurav Dabral
+        </h1>
+
+        <p class="lead">
+          Game Programmer — a quick look at
+          what I've worked on.
+        </p>
+
       </div>
+
     </section>
 
-    <!-- ABOUT -->
+
+    <!--  ABOUT  -->
+
     <section id="about" class="section section--about">
-      <p class="eyebrow">02 / About Me</p>
+
+      <p class="eyebrow">
+        02 / About Me
+      </p>
+
+
       <div class="about__layout">
+
+
         <div class="about__photo">
-          <!-- Replace with <img src="your-photo.jpg" alt="Your Name"> -->
-          <div class="about__photo-placeholder">Add your photo here</div>
+
+          <div class="about__photo-placeholder">
+            Add your photo here
+          </div>
+
         </div>
+
+
         <div class="about__text">
-          <h1>Hi, I'm <span class="accent" data-name="author">Your Name</span> —<br>a game programmer &amp; designer.</h1>
+
+          <h1>
+
+            Hi, I'm
+
+            <span class="accent" data-name="author">
+
+              Gaurav Dabral
+
+            </span>
+
+            —
+
+            <br>
+
+            a game programmer.
+
+          </h1>
+
+
           <p class="lead">
-            I've been making games since I was a kid, and I currently work as a
-            <strong>Game Programmer</strong> at <strong>Studio Name</strong>. I studied
-            Game Technology at <strong>Your University</strong>, and I like getting deep
-            into the technical side of things: engines, tools, rendering, whatever the
-            project needs.
+
+            I've been working as a Game Programmer
+            with a focus on gameplay systems,
+            multiplayer mechanics, VR experiences,
+            and interactive gameplay.
+
           </p>
+
+
           <p class="lead">
-            Below are some of the projects I've shipped professionally, plus personal
-            experiments I build for fun. Click a tile to see more.
+
+            My professional experience spans
+            Unreal Engine and browser-based game
+            development, with work across multiplayer
+            gameplay, VR interaction systems, AI,
+            UI, animation integration, and
+            backend-driven gameplay.
+
           </p>
+
+
+          <p class="lead">
+
+            Below are some of the projects I've
+            worked on professionally, followed by
+            personal projects and experiments.
+
+          </p>
+
         </div>
+
       </div>
+
     </section>
+
 
     <!-- PROFESSIONAL PROJECTS -->
+
     <section id="professional" class="section">
-      <p class="eyebrow">03 / Professional Projects</p>
-      <h2>Click on a tile to learn more about each project.</h2>
 
-      <div class="grid">
-        <article class="tile" tabindex="0" data-target="proj-1">
-          <div class="tile__img" style="background:#2b3a55"></div>
-          <div class="tile__body">
-            <h3>Project Codename Alpha</h3>
-            <div class="tags"><span>c++</span><span>aaa</span><span>studio</span></div>
-            <p>Gameplay programmer on a shipped AAA title, working on narrative systems.</p>
-          </div>
-        </article>
+      <p class="eyebrow">
+        03 / Professional Projects
+      </p>
 
-        <article class="tile" tabindex="0" data-target="proj-2">
-          <div class="tile__img" style="background:#4a3b5c"></div>
-          <div class="tile__body">
-            <h3>Bolt Storm</h3>
-            <div class="tags"><span>ue5</span><span>c++</span><span>university</span></div>
-            <p>3D dungeon crawler / shoot 'em up built as a team capstone project.</p>
-          </div>
-        </article>
 
-        <article class="tile" tabindex="0" data-target="proj-3">
-          <div class="tile__img" style="background:#3a5545"></div>
-          <div class="tile__body">
-            <h3>Soul Knight</h3>
-            <div class="tags"><span>ue5</span><span>gameplay</span><span>university</span></div>
-            <p>3rd-person adventure platformer with a custom camera &amp; state machine.</p>
-          </div>
-        </article>
+      <h2>
+        Projects I've worked on professionally.
+      </h2>
+
+
+      <!-- Populated automatically by script.js -->
+
+      <div class="grid" id="professionalGrid">
       </div>
+
     </section>
 
-    <!-- PERSONAL WORK -->
+
+    <!-- PERSONAL PROJECTS -->
+
     <section id="personal" class="section">
-      <p class="eyebrow">04 / Personal Work</p>
-      <h2>Things I build in my own time.</h2>
 
-      <div class="grid">
-        <article class="tile" tabindex="0" data-target="proj-4">
-          <div class="tile__img" style="background:#5c3b3b"></div>
-          <div class="tile__body">
-            <h3>Custom Game Engine</h3>
-            <div class="tags"><span>c++</span><span>engine</span><span>opengl</span></div>
-            <p>A small engine written from scratch, with a level editor and node-graph tools.</p>
-          </div>
-        </article>
+      <p class="eyebrow">
+        04 / Personal Work
+      </p>
 
-        <article class="tile" tabindex="0" data-target="proj-5">
-          <div class="tile__img" style="background:#3b4a5c"></div>
-          <div class="tile__body">
-            <h3>Ludum Dare Entry</h3>
-            <div class="tags"><span>unity</span><span>c#</span><span>gamejam</span></div>
-            <p>A 48-hour game jam project built solo around a single mechanic.</p>
-          </div>
-        </article>
 
-        <article class="tile" tabindex="0" data-target="proj-6">
-          <div class="tile__img" style="background:#4a4a3b"></div>
-          <div class="tile__body">
-            <h3>DirectX Renderer</h3>
-            <div class="tags"><span>directx</span><span>rendering</span><span>c++</span></div>
-            <p>Physically based rendering renderer built from the ground up in DX11.</p>
-          </div>
-        </article>
+      <h2>
+        Things I build in my own time.
+      </h2>
+
+
+      <!-- Populated automatically by script.js -->
+
+      <div class="grid" id="personalGrid">
       </div>
+
     </section>
+
 
     <!-- CONTACT -->
+
     <section id="contact" class="section section--contact">
-      <p class="eyebrow">05 / Contact</p>
-      <h2>Let's talk.</h2>
-      <p class="lead">
-        Feel free to reach out — I'll try to reply as quickly as I can.
+
+      <p class="eyebrow">
+        05 / Contact
       </p>
-      <a class="email-link" href="mailto:you@example.com">you@example.com</a>
+
+
+      <h2>
+        Let's talk.
+      </h2>
+
+
+      <p class="lead">
+
+        Feel free to reach out —
+        I'll try to reply as quickly as I can.
+
+      </p>
+
+
+      <a class="email-link" href="mailto:you@example.com">
+
+        you@example.com
+
+      </a>
+
+
       <div class="sidenav__social sidenav__social--footer">
-        <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
-        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+
+        <a href="https://twitter.com/" target="_blank" rel="noopener">
+          Twitter
+        </a>
+
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+
+        <a href="https://github.com/" target="_blank" rel="noopener">
+          GitHub
+        </a>
+
       </div>
-      <p class="fine-print">© 2026 <span data-name="author">Your Name</span>. All rights reserved.</p>
+
+
+      <p class="fine-print">
+
+        © 2026
+
+        <span data-name="author">
+          Gaurav Dabral
+        </span>.
+
+        All rights reserved.
+
+      </p>
+
     </section>
 
   </main>
 
-  <!-- GAME DEMO — full takeover, hidden until opened -->
+
+  <!-- GAME DEMO -->
+
   <section id="gamedemo" class="gamedemo">
+
+
     <div id="gameCanvasWrap" class="gamedemo__canvas-wrap">
-      <canvas id="gameCanvas"></canvas>
+
+      <canvas id="gameCanvas">
+      </canvas>
+
     </div>
 
-    <button class="gamedemo__exit" id="gameExitBtn" aria-label="Back to portfolio">&larr; Back to portfolio</button>
+
+    <button class="gamedemo__exit" id="gameExitBtn" aria-label="Back to portfolio">
+
+      &larr; Back to portfolio
+
+    </button>
+
 
     <div class="gamedemo__touch-controls" id="gameTouchControls">
-      <button class="gamedemo__touch-btn" id="touchLeftBtn" aria-label="Steer left">&#8249;</button>
-      <button class="gamedemo__touch-btn" id="touchRightBtn" aria-label="Steer right">&#8250;</button>
+
+      <button class="gamedemo__touch-btn" id="touchLeftBtn" aria-label="Steer left">
+
+        &#8249;
+
+      </button>
+
+
+      <button class="gamedemo__touch-btn" id="touchRightBtn" aria-label="Steer right">
+
+        &#8250;
+
+      </button>
+
     </div>
+
 
     <div class="gamedemo__hud">
-      <span class="gamedemo__hud-label">Distance</span>
-      <span class="gamedemo__hud-score" id="gameScore">0</span>m
+
+      <span class="gamedemo__hud-label">
+        Distance
+      </span>
+
+      <span class="gamedemo__hud-score" id="gameScore">
+
+        0
+
+      </span>
+
+      m
+
     </div>
+
 
     <div class="gamedemo__overlay" id="gameStartOverlay">
-      <p class="eyebrow">Skills Showcase</p>
-      <h2>Low-poly Runner</h2>
-      <p class="lead">A quick playable built to show engine &amp; gameplay-programming basics — dodge traffic, keep the distance climbing.</p>
-      <button class="btn btn--accent" id="gameStartBtn">Start Driving</button>
-      <p class="gamedemo__controls">
-        <span>&larr; / A</span> &nbsp; <span>D / &rarr;</span> &nbsp; steer lanes &nbsp;·&nbsp; tap left/right on mobile
+
+      <p class="eyebrow">
+        Skills Showcase
       </p>
+
+
+      <h2>
+        Low-poly Runner
+      </h2>
+
+
+      <p class="lead">
+
+        A quick playable built to show
+        engine &amp; gameplay-programming basics —
+        dodge traffic, keep the distance climbing.
+
+      </p>
+
+
+      <button class="btn btn--accent" id="gameStartBtn">
+
+        Start Driving
+
+      </button>
+
+
+      <p class="gamedemo__controls">
+
+        <span>
+          &larr; / A
+        </span>
+
+        &nbsp;
+
+        <span>
+          D / &rarr;
+        </span>
+
+        &nbsp;
+
+        steer lanes
+
+        &nbsp;·&nbsp;
+
+        tap left/right on mobile
+
+      </p>
+
     </div>
+
 
     <div class="gamedemo__overlay hidden" id="gameOverOverlay">
-      <p class="eyebrow">Crashed!</p>
-      <h2>Run over.</h2>
-      <p class="lead">You made it <strong id="gameFinalScore">0</strong>m before hitting traffic.</p>
-      <button class="btn btn--accent" id="gameRetryBtn">Try Again</button>
+
+      <p class="eyebrow">
+        Crashed!
+      </p>
+
+
+      <h2>
+        Run over.
+      </h2>
+
+
+      <p class="lead">
+
+        You made it
+
+        <strong id="gameFinalScore">
+          0
+        </strong>
+
+        m before hitting traffic.
+
+      </p>
+
+
+      <button class="btn btn--accent" id="gameRetryBtn">
+
+        Try Again
+
+      </button>
+
     </div>
+
   </section>
 
-  <!-- SHARED DETAIL MODAL (projects + résumé) -->
+
+  <!-- SHARED MODAL -->
+
   <div class="modal" id="modal">
+
     <div class="modal__panel" id="modalPanel">
-      <button class="modal__close" id="modalClose" aria-label="Close">&times;</button>
-      <div class="modal__content" id="modalContent"></div>
+
+
+      <button class="modal__close" id="modalClose" aria-label="Close">
+
+        &times;
+
+      </button>
+
+
+      <div class="modal__content" id="modalContent">
+      </div>
+
+
     </div>
+
   </div>
 
+
   <script src="script.js"></script>
-  <script type="module" src="game.js"></script>
+
+  <script type="module" src="game.js">
+  </script>
+
 </body>
+
 </html>

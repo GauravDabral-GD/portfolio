@@ -1,0 +1,250 @@
+{
+    "site": {
+        "authorName": "Gaurav Dabral",
+        "pageTitle": "Gaurav Dabral — Game Programming & Design Portfolio",
+        "navigation": {
+            "about": "About",
+            "professional": "Professional",
+            "personal": "Personal Work",
+            "resume": "Résumé",
+            "gameDemo": "Game Demo",
+            "contact": "Contact"
+        },
+        "hero": {
+            "eyebrow": "Work Reel",
+            "title": "Gaurav Dabral",
+            "description": "Game Programmer — a quick look at what I've worked on.",
+            "videoPlaceholder": "Drop your work reel in as reel.mp4",
+            "videoPlaceholderSecondary": "(or swap the <video> for a YouTube/Vimeo embed)"
+        },
+        "about": {
+            "eyebrow": "02 / About Me",
+            "heading": "Hi, I'm Gaurav Dabral — a game programmer.",
+            "description": [
+                "I've been working as a Game Programmer with a focus on gameplay systems, multiplayer mechanics, VR experiences, and interactive gameplay.",
+                "My professional experience spans Unreal Engine and browser-based game development, with work across multiplayer gameplay, VR interaction systems, AI, UI, animation integration, and backend-driven gameplay.",
+                "Below are some of the projects I've worked on professionally, followed by personal projects and experiments."
+            ],
+            "photoPlaceholder": "Add your photo here"
+        },
+        "professional": {
+            "eyebrow": "03 / Professional Projects",
+            "heading": "Projects I've worked on professionally."
+        },
+        "personal": {
+            "eyebrow": "04 / Personal Work",
+            "heading": "Things I build in my own time."
+        },
+        "contact": {
+            "eyebrow": "05 / Contact",
+            "heading": "Let's talk.",
+            "description": "Feel free to reach out — I'll try to reply as quickly as I can.",
+            "email": "you@example.com"
+        },
+        "social": {
+            "twitter": "Twitter",
+            "linkedin": "LinkedIn",
+            "github": "GitHub"
+        },
+        "gameDemo": {
+            "eyebrow": "Skills Showcase",
+            "title": "Low-poly Runner",
+            "description": "A quick playable built to show engine & gameplay-programming basics — dodge traffic, keep the distance climbing.",
+            "startButton": "Start Driving",
+            "controls": "← / A    D / →    steer lanes    ·    tap left/right on mobile",
+            "distanceLabel": "Distance",
+            "crashedEyebrow": "Crashed!",
+            "gameOverTitle": "Run over.",
+            "gameOverDescription": "You made it",
+            "gameOverSuffix": "m before hitting traffic.",
+            "retryButton": "Try Again",
+            "exitButton": "← Back to portfolio"
+        },
+        "resume": {
+            "title": "Résumé",
+            "downloadButton": "Download PDF",
+            "openButton": "Open in new tab",
+            "fallbackText": "If the preview above is blank, add your file as"
+        },
+        "projectModal": {
+            "technologyLabel": "Technology",
+            "galleryLabel": "Gallery",
+            "contributionsLabel": "Contributions",
+            "galleryPlaceholder": "Screenshot",
+            "galleryPlaceholderSuffix": "(add image)"
+        }
+    },
+    "professionalProjects": {
+        "proj-1": {
+            "title": "Slot Game",
+            "tags": [
+                "phaser 3",
+                "typescript",
+                "spine",
+                "effekseer"
+            ],
+            "shortDescription": "Browser-based slot game developed with Phaser 3 and TypeScript, featuring responsive UI, animations, visual effects, and backend-authoritative gameplay.",
+            "description": "A browser-based slot game developed using Phaser 3 and TypeScript. The project uses a backend-authoritative gameplay architecture where spin outcomes, rewards, RTP, and spin validation are handled by the backend, while the frontend focuses on presenting gameplay results through responsive UI, animations, visual effects, and gameplay sequencing.",
+            "technology": [
+                "Phaser 3",
+                "TypeScript",
+                "React",
+                "Spine",
+                "Effekseer",
+                "HTML5 Canvas",
+                "WebGL",
+                "Git"
+            ],
+            "contributions": [
+                "Implemented frontend gameplay systems and responsive UI using Phaser 3 and TypeScript",
+                "Integrated Spine animations and Effekseer visual effects",
+                "Implemented Redux-based state management for game state and UI flow",
+                "Integrated backend-authoritative gameplay systems and data",
+                "Implemented gameplay result presentation and sequencing",
+                "Optimized rendering, asset loading, and frontend performance",
+                "Debugged gameplay, UI, animation, and integration issues"
+            ]
+        },
+        "proj-2": {
+            "title": "Multiplayer Space Exploration Demo",
+            "tags": [
+                "ue5",
+                "c++",
+                "multiplayer",
+                "gameplay"
+            ],
+            "shortDescription": "Multiplayer space exploration game featuring replicated movement, AI, objectives, combat, and backend integration.",
+            "description": "A multiplayer space exploration demo developed in Unreal Engine 5, featuring networked spaceship movement, gravity-aware AI, objective management, combat, and persistent backend-driven player progression within a listen-server multiplayer architecture.",
+            "technology": [
+                "Unreal Engine 5.3",
+                "C++",
+                "Blueprints",
+                "Git"
+            ],
+            "contributions": [
+                "Implemented replicated 6DoF spaceship movement",
+                "Developed gravity-aware AI behavior for procedurally generated planets",
+                "Created an objective management system with corresponding UI updates",
+                "Implemented a replicated shooting system with object pooling",
+                "Integrated backend APIs for persistent player data and gameplay progression",
+                "Developed gameplay and UI systems within a listen-server multiplayer architecture"
+            ]
+        },
+        "proj-3": {
+            "title": "Location-Based VR Co-op Shooting Game",
+            "tags": [
+                "ue5",
+                "vr",
+                "multiplayer",
+                "combat"
+            ],
+            "shortDescription": "Two-player multiplayer VR shooting game featuring replicated gameplay, AI enemies, combat systems, and interactive environments.",
+            "description": "A two-player multiplayer location-based VR shooting game developed in Unreal Engine 5, focused on cooperative combat, replicated gameplay systems, AI encounters, interactive environments, and physics-driven VR interactions.",
+            "technology": [
+                "Unreal Engine 5.3",
+                "C++",
+                "Blueprints",
+                "Meta Quest Developer Hub",
+                "SteamVR",
+                "TortoiseSVN"
+            ],
+            "contributions": [
+                "Designed and implemented a replicated VR inventory system from scratch",
+                "Developed multiplayer gameplay systems and synchronized player interactions",
+                "Implemented AI behaviors including enemy shooting and turret gameplay",
+                "Created interactive environment elements and in-world VR UI",
+                "Developed Animation Blueprints and physics-driven character reactions",
+                "Implemented ragdolls, cloth simulation, and physics constraints",
+                "Optimized multiplayer synchronization, gameplay systems, and VR performance"
+            ]
+        },
+        "proj-4": {
+            "title": "VR Mini Games",
+            "tags": [
+                "ue5",
+                "vr",
+                "blueprints",
+                "gameplay"
+            ],
+            "shortDescription": "Collection of VR mini-games and exploration experiences focused on player interaction, input, animation, and exploration mechanics.",
+            "description": "A collection of immersive VR mini-games and exploration experiences developed using Unreal Engine 5, implementing VR input handling, player interaction systems, hand animation Blueprints, and rover-based exploration mechanics.",
+            "technology": [
+                "Unreal Engine 5.2",
+                "Blueprints",
+                "Meta Quest Developer Hub",
+                "SteamVR",
+                "TortoiseSVN"
+            ],
+            "contributions": [
+                "Implemented VR input handling and player interaction systems",
+                "Developed VR hand animation Blueprints",
+                "Implemented rover-based exploration mechanics",
+                "Built interactive gameplay systems for multiple VR experiences",
+                "Collaborated with designers to create intuitive VR interactions",
+                "Performed debugging and playtesting to improve stability and user experience",
+                "Optimized gameplay systems and performance for VR"
+            ]
+        }
+    },
+    "personalProjects": {
+        "proj-1": {
+            "title": "Custom Game Engine",
+            "tags": [
+                "c++",
+                "engine",
+                "opengl"
+            ],
+            "shortDescription": "A small engine written from scratch, with a level editor and node-graph tools.",
+            "description": "A small engine written from scratch in C++, built to learn the fundamentals end to end — from the render loop up to a usable editor.",
+            "technology": [
+                "C++",
+                "OpenGL"
+            ],
+            "contributions": [
+                "Level editor",
+                "Node-graph scripting system",
+                "Custom renderer abstraction",
+                "Hot-reloadable assets"
+            ]
+        },
+        "proj-2": {
+            "title": "Ludum Dare Entry",
+            "tags": [
+                "unity",
+                "c#",
+                "gamejam"
+            ],
+            "shortDescription": "A 48-hour game jam project built solo around a single mechanic.",
+            "description": "A 48-hour game jam project built solo around a single core mechanic, from concept to submission.",
+            "technology": [
+                "Unity",
+                "C#"
+            ],
+            "contributions": [
+                "Full gameplay design & implementation",
+                "Rapid prototyping under a time limit",
+                "Solo art & audio"
+            ]
+        },
+        "proj-3": {
+            "title": "DirectX Renderer",
+            "tags": [
+                "directx",
+                "rendering",
+                "c++"
+            ],
+            "shortDescription": "Physically based rendering renderer built from the ground up in DX11.",
+            "description": "Physically based rendering renderer built from the ground up in DirectX 11, with an eye toward a clean, engine-agnostic API.",
+            "technology": [
+                "C++",
+                "DirectX 11",
+                "XInput"
+            ],
+            "contributions": [
+                "Physically based shading model",
+                "Abstracted rendering API",
+                "Input handling with XInput"
+            ]
+        }
+    }
+}
