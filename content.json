@@ -131,7 +131,7 @@
             ]
         },
         "proj-3": {
-            "title": "Location-Based VR Co-op Shooting Game",
+            "title": "LBVR Co-op Shooting Game",
             "tags": [
                 "ue5",
                 "vr",
@@ -188,11 +188,11 @@
     },
     "personalProjects": {
         "proj-1": {
-            "title": "Custom Game Engine",
+            "title": "SKY ADVEBTURE",
             "tags": [
                 "c++",
-                "engine",
-                "opengl"
+                "blueprints",
+                "ue5"
             ],
             "shortDescription": "A small engine written from scratch, with a level editor and node-graph tools.",
             "description": "A small engine written from scratch in C++, built to learn the fundamentals end to end — from the render loop up to a usable editor.",
