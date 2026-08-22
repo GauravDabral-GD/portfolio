@@ -200,19 +200,23 @@
             "tags": [
                 "c++",
                 "blueprints",
-                "ue5"
+                "ue5",
+                "platformer"
             ],
-            "shortDescription": "A small engine written from scratch, with a level editor and node-graph tools.",
-            "description": "A small engine written from scratch in C++, built to learn the fundamentals end to end — from the render loop up to a usable editor.",
+            "shortDescription": "A 3D platformer prototype focused on locomotion, movement feel, and collectible-based progression.",
+            "description": "Sky Adventure is a 3D platformer prototype built in Unreal Engine 5 that focuses on core locomotion mechanics, movement responsiveness, and a collectible-driven progression loop. The project explores basic character movement such as running, jumping, and directional traversal while encouraging exploration through item collection and goal-oriented level progression. The gameplay loop is designed around simple, readable mechanics that can be expanded with additional hazards, enemy interactions, environmental puzzles, and more advanced level design.",
             "technology": [
                 "C++",
-                "OpenGL"
+                "Blueprints",
+                "Unreal Engine 5",
+                "Gameplay Systems"
             ],
             "contributions": [
-                "Level editor",
-                "Node-graph scripting system",
-                "Custom renderer abstraction",
-                "Hot-reloadable assets"
+                "Implemented basic 3D platformer locomotion and movement feel",
+                "Built collectible item system and progression flow",
+                "Designed a simple exploration-focused gameplay loop",
+                "Iterated on platforming responsiveness and player control",
+                "Explored level structure and pacing for a compact 3D platformer experience"
             ],
             "video": "public/Videos/Sky Adventure - Web.mp4",
             "images": [
