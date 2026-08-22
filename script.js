@@ -45,7 +45,7 @@ function resolveAsset(section, key, fallback = "") {
   return ASSETS?.[section]?.[key] || fallback;
 }
 
-// Build project data from content + assets.
+// Build project data from content.
 function buildProjects() {
   PROJECTS = {
     professional: {},
@@ -56,14 +56,10 @@ function buildProjects() {
     ([key, project]) => {
       PROJECTS.professional[key] = {
         ...project,
-
-        images: [
-          resolveAsset("professional", `${key}-image-1`),
-          resolveAsset("professional", `${key}-image-2`),
-          resolveAsset("professional", `${key}-image-3`),
-          resolveAsset("professional", `${key}-image-4`),
-        ].filter(Boolean),
-
+        video: project.video || "",
+        images: Array.isArray(project.images)
+          ? project.images.filter(Boolean)
+          : [],
         galleryCount: 4,
       };
     },
@@ -72,16 +68,10 @@ function buildProjects() {
   Object.entries(CONTENT.personalProjects || {}).forEach(([key, project]) => {
     PROJECTS.personal[key] = {
       ...project,
-
-      video: resolveAsset("personal", `${key}-video`),
-
-      images: [
-        resolveAsset("personal", `${key}-image-1`),
-        resolveAsset("personal", `${key}-image-2`),
-        resolveAsset("personal", `${key}-image-3`),
-        resolveAsset("personal", `${key}-image-4`),
-      ].filter(Boolean),
-
+      video: project.video || "",
+      images: Array.isArray(project.images)
+        ? project.images.filter(Boolean)
+        : [],
       galleryCount: 4,
     };
   });
@@ -146,8 +136,38 @@ function renderProjectTiles() {
   bindProjectTiles();
 }
 
+function createLockIcon() {
+  return `
+    <svg class="lock-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <path d="M22 30V20c0-5.5 4.5-10 10-10s10 4.5 10 10v10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      <rect x="18" y="28" width="28" height="23" rx="5" fill="none" stroke="currentColor" stroke-width="3"/>
+      <circle cx="32" cy="39.5" r="3.5" fill="currentColor"/>
+      <path d="M32 43v5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  `;
+}
+
 // Create a project tile.
 function createProjectTile(key, project, section) {
+  const previewImage = project.images?.[0] || "";
+
+  const tileImageMarkup = previewImage
+    ? `
+        <div
+          class="tile__img"
+          style="
+            background-image: url('${previewImage}');
+            background-size: cover;
+            background-position: center;
+          ">
+        </div>
+      `
+    : `
+        <div class="tile__img tile__img--locked">
+          ${createLockIcon()}
+        </div>
+      `;
+
   return `
     <article
       class="tile"
@@ -155,14 +175,7 @@ function createProjectTile(key, project, section) {
       data-project-section="${section}"
       data-target="${key}">
 
-      <div
-        class="tile__img"
-        style="
-          background-image: url('public/Images/lock.jpg');
-          background-size: cover;
-          background-position: center;
-        ">
-      </div>
+      ${tileImageMarkup}
 
       <div class="tile__body">
 
@@ -306,25 +319,11 @@ function openProjectModal(section, key) {
           `,
       )
       .join("")
-    : Array.from({
-      length: project.galleryCount || 3,
-    })
-      .map(
-        (_, index) => `
-            <div
-              class="modal__gallery-placeholder">
-
-              ${labels.galleryPlaceholder}
-              ${index + 1}
-
-              <br>
-
-              ${labels.galleryPlaceholderSuffix}
-
-            </div>
-          `,
-      )
-      .join("");
+    : `
+        <div class="modal__gallery-placeholder modal__gallery-placeholder--locked">
+          ${createLockIcon()}
+        </div>
+      `;
 
   const technology = project.technology?.length
     ? `

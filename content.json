@@ -103,7 +103,9 @@
                 "Implemented gameplay result presentation and sequencing",
                 "Optimized rendering, asset loading, and frontend performance",
                 "Debugged gameplay, UI, animation, and integration issues"
-            ]
+            ],
+            "video": "",
+            "images": []
         },
         "proj-2": {
             "title": "Multiplayer Space Exploration Demo",
@@ -128,10 +130,12 @@
                 "Implemented a replicated shooting system with object pooling",
                 "Integrated backend APIs for persistent player data and gameplay progression",
                 "Developed gameplay and UI systems within a listen-server multiplayer architecture"
-            ]
+            ],
+            "video": "",
+            "images": []
         },
         "proj-3": {
-            "title": "LBVR Co-op Shooting Game",
+            "title": "Great Train Outlaws(GTO) - VR Co-op Shooting Game",
             "tags": [
                 "ue5",
                 "vr",
@@ -156,7 +160,9 @@
                 "Developed Animation Blueprints and physics-driven character reactions",
                 "Implemented ragdolls, cloth simulation, and physics constraints",
                 "Optimized multiplayer synchronization, gameplay systems, and VR performance"
-            ]
+            ],
+            "video": "",
+            "images": []
         },
         "proj-4": {
             "title": "VR Mini Games",
@@ -183,12 +189,14 @@
                 "Collaborated with designers to create intuitive VR interactions",
                 "Performed debugging and playtesting to improve stability and user experience",
                 "Optimized gameplay systems and performance for VR"
-            ]
+            ],
+            "video": "",
+            "images": []
         }
     },
     "personalProjects": {
         "proj-1": {
-            "title": "SKY ADVEBTURE",
+            "title": "SKY ADVENTURE",
             "tags": [
                 "c++",
                 "blueprints",
@@ -205,6 +213,13 @@
                 "Node-graph scripting system",
                 "Custom renderer abstraction",
                 "Hot-reloadable assets"
+            ],
+            "video": "public/Videos/Sky Adventure - Web.mp4",
+            "images": [
+                "public/Images/Platformer/Platformer.png",
+                "public/Images/Platformer/Screenshot 2023-11-19 154026.png",
+                "public/Images/Platformer/Screenshot 2023-11-19 154512.png",
+                "public/Images/Platformer/Screenshot 2023-12-19 174302.png"
             ]
         },
         "proj-2": {
@@ -224,7 +239,9 @@
                 "Full gameplay design & implementation",
                 "Rapid prototyping under a time limit",
                 "Solo art & audio"
-            ]
+            ],
+            "video": "",
+            "images": []
         },
         "proj-3": {
             "title": "DirectX Renderer",
@@ -244,7 +261,9 @@
                 "Physically based shading model",
                 "Abstracted rendering API",
                 "Input handling with XInput"
-            ]
+            ],
+            "video": "",
+            "images": []
         }
     }
 }

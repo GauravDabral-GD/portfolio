@@ -304,6 +304,21 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
   width: 100%;
 }
 
+.tile__img--locked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border-bottom: 1px solid var(--border);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.lock-icon {
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
 .tile__body { padding: 1.25rem; }
 
 .tile__body h3 {
@@ -453,6 +468,17 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
   font-family: var(--font-mono);
   text-align: center;
   padding: 0.5rem;
+}
+
+.modal__gallery-placeholder--locked {
+  background: rgba(255, 255, 255, 0.02);
+  border-style: solid;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.modal__gallery-placeholder--locked .lock-icon {
+  width: 28px;
+  height: 28px;
 }
 
 .modal__section-label {

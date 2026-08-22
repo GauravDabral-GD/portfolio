@@ -1,27 +1,4 @@
 {
     "heroVideo": "reel.mp4",
-    "resumePdf": "resume.pdf",
-    "professional": {
-        "proj-1-image-1": "public/Images/lock.jpg",
-        "proj-2-image-1": "public/Images/lock.jpg",
-        "proj-3-image-1": "public/Images/lock.jpg",
-        "proj-4-image-1": "public/Images/lock.jpg"
-    },
-    "personal": {
-        "proj-1-video": "projects/proj-5/clip.mp4",
-        "proj-1-image-1": "",
-        "proj-1-image-2": "",
-        "proj-1-image-3": "",
-        "proj-1-image-4": "",
-        "proj-2-video": "projects/proj-6/clip.mp4",
-        "proj-2-image-1": "",
-        "proj-2-image-2": "",
-        "proj-2-image-3": "",
-        "proj-2-image-4": "",
-        "proj-3-video": "projects/proj-7/clip.mp4",
-        "proj-3-image-1": "",
-        "proj-3-image-2": "",
-        "proj-3-image-3": "",
-        "proj-3-image-4": ""
-    }
+    "resumePdf": "resume.pdf"
 }
