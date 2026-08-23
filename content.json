@@ -21,9 +21,7 @@
             "eyebrow": "02 / About Me",
             "heading": "Hi, I'm Gaurav Dabral — a game programmer.",
             "description": [
-                "I've been working as a Game Programmer with a focus on gameplay systems, multiplayer mechanics, VR experiences, and interactive gameplay.",
-                "My professional experience spans Unreal Engine and browser-based game development, with work across multiplayer gameplay, VR interaction systems, AI, UI, animation integration, and backend-driven gameplay.",
-                "Below are some of the projects I've worked on professionally, followed by personal projects and experiments."
+                "I'm a Game Programmer specializing in Unreal Engine, with a focus on gameplay systems, multiplayer mechanics, VR experiences, and building modular, gameplay features.\n\nMy professional experience includes developing gameplay systems, player and interaction mechanics, multiplayer functionality, AI behaviors, UI systems, animation systems, and backend-integrated features using Unreal Engine. I also have experience in web-based game development, working with game logic, visuals, effects, and animation.\n\nThe projects below showcase my professional work, followed by personal projects and experiments that reflect my technical interests and continued exploration of game development."
             ],
             "photoPlaceholder": "Add your photo here"
         },
