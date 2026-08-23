@@ -225,47 +225,34 @@
             ]
         },
         "proj-2": {
-            "title": "Ludum Dare Entry",
+            "title": "Endless Runner",
             "tags": [
-                "unity",
-                "c#",
-                "gamejam"
+                "ue5",
+                "blueprints",
+                "endless-runner",
+                "gameplay"
             ],
-            "shortDescription": "A 48-hour game jam project built solo around a single mechanic.",
-            "description": "A 48-hour game jam project built solo around a single core mechanic, from concept to submission.",
+            "shortDescription": "An endless runner prototype built in Unreal Engine 5 with obstacle avoidance, collectibles, and power-ups.",
+            "description": "An endless runner game developed in Unreal Engine 5 using Blueprints, featuring continuous forward movement, strategically placed obstacles, collectibles, and power-ups. The project focused on implementing core runner gameplay mechanics, player movement, and progressively engaging level design to create a fast-paced and replayable experience.",
             "technology": [
-                "Unity",
-                "C#"
+                "Unreal Engine 5",
+                "Blueprints",
+                "Gameplay Systems",
+                "Level Design"
             ],
             "contributions": [
-                "Full gameplay design & implementation",
-                "Rapid prototyping under a time limit",
-                "Solo art & audio"
+                "Implemented continuous forward movement and player control",
+                "Designed obstacle patterns and difficulty progression",
+                "Built collectible and power-up systems",
+                "Created replayable runner pacing and level flow",
+                "Iterated on movement feel and gameplay readability"
             ],
-            "video": "",
-            "images": []
-        },
-        "proj-3": {
-            "title": "DirectX Renderer",
-            "tags": [
-                "directx",
-                "rendering",
-                "c++"
-            ],
-            "shortDescription": "Physically based rendering renderer built from the ground up in DX11.",
-            "description": "Physically based rendering renderer built from the ground up in DirectX 11, with an eye toward a clean, engine-agnostic API.",
-            "technology": [
-                "C++",
-                "DirectX 11",
-                "XInput"
-            ],
-            "contributions": [
-                "Physically based shading model",
-                "Abstracted rendering API",
-                "Input handling with XInput"
-            ],
-            "video": "",
-            "images": []
+            "video": "public/Videos/EndlessRunner.mp4",
+            "images": [
+                "public/Images/EndlessRunner/EndlessRunner.png",
+                "public/Images/EndlessRunner/Screenshot 1.png",
+                "public/Images/EndlessRunner/Screenshot 2.png"
+            ]
         }
     }
 }
